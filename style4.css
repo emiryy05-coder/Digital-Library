@@ -1,0 +1,148 @@
+#home1{
+    align-items: center;
+    background-color: rgb(38, 132, 205);
+    color:rgb(236, 221, 221);
+    text-align: center;
+   background: linear-gradient(110deg, #555555 0%, #000000 100%); /*Bu kod gemini3'ten alındı*/
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+#adminpage{
+    align-items: center;
+    background-color: rgb(38, 132, 205);
+    color:rgb(236, 221, 221);
+    text-align: center;
+     background: linear-gradient(110deg, #555555 0%, #000000 100%);/*Bu kod gemini3'ten alındı*/
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+#demo{
+    margin-left: 50px; /* 50px */
+    text-align: center;
+    align-items: center;
+    width: 650px;    /* 650px */
+}
+
+.carousel-item img {
+  
+    height: 450px; /* Slider'ın yüksekliği sabit 500px */
+    object-fit: cover; /* Resmi sündürmeden, kutuyu dolduracak şekilde kırpar */
+    width: 100%;    /*burası 100%*/
+    border: 1px dashed rgb(245, 243, 243);
+    border-radius: 20px;
+    box-shadow: 5px 4px 8px rgba(255, 255, 255, 0.978);
+}
+.slider-wrapper {
+    
+    max-width: 1200px; /* Slider çok geniş olmasın diye sınır koyduk */
+    margin: 5px ;   /* Sağı solu otomatik yaparak ortalar     = 0 auto */
+    border: 1px dashed rgb(245, 243, 243);
+    border-radius: 20px;
+    box-shadow: 2px 4px 8px rgba(255, 255, 255, 0.978);
+}
+.carousel-slide{
+
+    border: 1px dashed rgb(245, 243, 243);
+    border-radius: 20px;
+    box-shadow: 2px 4px 8px rgba(255, 255, 255, 0.978);
+}
+.carousel-inner{
+    
+    border: 1px dashed rgb(245, 243, 243);
+    border-radius: 20px;
+    box-shadow: 2px 4px 8px rgba(255, 255, 255, 0.978);
+}
+.imgp{
+    text-shadow:-1px -1px 0 #b5b3b3, 1px -1px 0 #343333,-1px 1px 0 #868686,1px 1px 0 #9f9e9e;
+}
+.hmph1{
+    color: #ffffff;
+    text-shadow:-1px -1px 0 #b5b3b3, 1px -1px 0 #343333,-1px 1px 0 #868686,1px 1px 0 #9f9e9e;
+}
+#nav1bar{
+    
+   
+    box-shadow: 2px 4px 10px rgba(255, 255, 255, 0.978);
+}
+#imglogo{
+    width: 60px;
+    height: 50px;
+    box-shadow: 5px 4px 8px rgba(83, 81, 81, 0.978);
+}
+.navlink{
+    box-shadow: 5px 4px 8px rgba(83, 81, 81, 0.978);
+    text-shadow:-1px -1px 0 #4b4b4b, 1px -1px 0 #343333,-1px 1px 0 #4d4d4d,1px 1px 0 #333333;
+}
+
+
+.kutu1{
+    display: inline;
+    width: 200px;
+    height: 100px;
+    background: #5291f6;
+    border-radius: 7px;
+    border: 1px solid rgb(101, 101, 101);
+    box-shadow: 5px 4px 8px rgba(83, 134, 171, 0.978);
+    color: rgb(244, 244, 244);
+    text-shadow:-1px -1px 0 #4b4b4b, 1px -1px 0 #343333,-1px 1px 0 #4d4d4d,1px 1px 0 #333333;
+}
+.kutu2{
+    display: inline;
+    width: 200px;
+    height: 100px;
+    background: #50c75e;
+    border-radius: 7px;
+    border: 1px solid rgb(101, 101, 101);
+    box-shadow: 5px 4px 8px rgba(102, 168, 91, 0.978);
+    color: rgb(244, 244, 244);
+    text-shadow:-1px -1px 0 #4b4b4b, 1px -1px 0 #343333,-1px 1px 0 #4d4d4d,1px 1px 0 #333333;
+}
+
+#sayac{
+    width: 500px;
+    height: 350px;
+    border-radius: 15px;
+    border: 1px dashed rgb(245, 243, 243);
+    box-shadow: 2px 4px 8px rgba(255, 255, 255, 0.978);
+    margin-top: 85px;
+}
+.card-body{
+    width: 500px;
+    height: 350px;
+    display: inline-flex;
+}
+
+
+
+
+
+ @media (max-width: 768px) {  /*Bu kısımda yapay zekadan yararlanıldı*/
+            header h1 {
+                font-size: 1.8rem;
+            }
+
+            .carousel-item img {
+                height: 300px;
+            }
+
+            .carousel-caption h5 {
+                font-size: 1rem;
+            }
+
+            .carousel-caption p {
+                font-size: 0.85rem;
+            }
+        }
+
+        @media (max-width: 576px) {
+            header h1 {
+                font-size: 1.5rem;
+            }
+
+            .carousel-item img {
+                height: 250px;
+            }
+
+            .carousel-control-prev,
+            .carousel-control-next {
+                width: 40px;
+            }
+        }

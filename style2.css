@@ -1,0 +1,90 @@
+#adminpage{
+     align-items: center;
+    background-color: rgb(38, 132, 205);
+    color:rgb(236, 221, 221);
+    text-align: center;
+     background: linear-gradient(110deg, #555555 0%, #000000 100%); /*Bu kod gemini3'ten alındı*/
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+#admin2{
+     align-items: center;
+    background-color: rgb(38, 132, 205);
+    color:rgb(236, 221, 221);
+    text-align: center;
+    background: linear-gradient(110deg, #555555 0%, #000000 100%); /*Bu kod gemini3'ten alındı*/
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+#romanPage{
+     align-items: center;
+    background-color: rgb(38, 132, 205);
+    color:rgb(236, 221, 221);
+    text-align: center;
+    background: linear-gradient(110deg, #555555 0%, #000000 100%); /*Bu kod gemini3'ten alındı*/
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+#tarihPage{
+     align-items: center;
+    background-color: rgb(38, 132, 205);
+    color:rgb(236, 221, 221);
+    text-align: center;
+    background: linear-gradient(110deg, #555555 0%, #000000 100%); /*Bu kod gemini3'ten alındı*/
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+#polisiyePage{
+     align-items: center;
+    background-color: rgb(38, 132, 205);
+    color:rgb(236, 221, 221);
+    text-align: center;
+    background: linear-gradient(110deg, #555555 0%, #000000 100%); /*Bu kod gemini3'ten alındı*/
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+.hmph1{
+    color: #ffffff;
+    text-shadow:-1px -1px 0 #b5b3b3, 1px -1px 0 #343333,-1px 1px 0 #868686,1px 1px 0 #9f9e9e;
+}
+#nav1bar{
+    
+   
+    box-shadow: 2px 4px 10px rgba(255, 255, 255, 0.978);
+}
+#demo{
+    margin-left: 50px; /* 50px */
+    text-align: center;
+    align-items: center;
+    width: 650px;    /* 650px */
+}
+#imglogo{
+    width: 60px;
+    height: 50px;
+    box-shadow: 5px 4px 8px rgba(83, 81, 81, 0.978);
+}
+#ekle{
+box-shadow: 2px 4px 4px rgba(255, 255, 255, 0.978);
+}
+#silme{
+box-shadow: 2px 4px 4px rgba(255, 255, 255, 0.978);
+}
+#romanHeader{
+    background-color: rgb(163, 34, 34);
+}
+#romanEkle{
+    box-shadow: 2px 4px 4px rgba(255, 255, 255, 0.978);
+}
+#polEkle{
+    box-shadow: 2px 4px 4px rgba(255, 255, 255, 0.978);
+}
+#tarihEkle{
+    box-shadow: 2px 4px 4px rgba(255, 255, 255, 0.978);
+}
+#bosluk1{
+    width: 200px;
+    height: 150px;
+}
+#bosluk2{
+    width: 200px;
+    height: 150px;
+}
+#bosluk3{
+    width: 200px;
+    height: 150px;
+}

@@ -1,0 +1,99 @@
+#login{
+    align-items: center;
+    background-color: rgb(38, 132, 205);
+    color:rgb(236, 221, 221);
+    text-align: center;
+    background: linear-gradient(110deg, #555555 0%, #000000 100%); /*Bu kod gemini3'ten alındı*/
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+label{
+    color: #38404e;
+    text-align: left;
+    font-weight: 600;
+    display: block; /*Kullanıcı Adı ve Şifre labellarını bir türlü sola taşıyamadım.*/
+}
+.loginh5{
+    margin-top: 10px;
+    font-size:x-large;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.kAdi{
+    text-align: start;
+    align-items: start;
+}
+#txt1{
+    margin-bottom: 12px;
+}
+#hmph2{
+    color: #ffffff;
+    text-shadow:-1px -1px 0 #b5b3b3, 1px -1px 0 #343333,-1px 1px 0 #868686,1px 1px 0 #9f9e9e;
+
+}
+
+#sbmt{
+    width:225px;
+    background-color: rgb(142, 224, 59);
+    border-radius: 100px;
+    border: 1px solid rgb(24, 27, 29);
+    box-shadow: 5px 4px 15px rgba(5, 137, 60, 0.4); /*Bu kod gemini3'ten alındı*/
+}
+.form-submit{
+    margin-left: 20px;
+    width:225px;
+    background-color: rgb(234, 234, 36);
+    border-radius: 100px;
+    border: 1px solid rgb(30, 99, 169);
+    box-shadow: 5px 4px 15px rgba(196, 199, 12, 0.4); /*Bu kod gemini3'ten alındı*/
+}
+#kayıt{
+    margin-left: 20px;
+    width:225px;
+    background-color: rgb(234, 234, 36);
+    border-radius: 100px;
+    border: 1px solid rgb(30, 99, 169);
+    box-shadow: 5px 4px 15px rgba(196, 199, 12, 0.4); /*Bu kod gemini3'ten alındı*/
+}
+#giriş1{
+    width: 600px;
+    height: 500px;
+}
+.ioh1h{
+    display: inline-flex;
+}
+#imglogo{
+    width: 60px;
+    height: 50px;
+}
+.card{
+    box-shadow: 2px 4px 4px rgba(255, 255, 255, 0.978);
+}
+
+/* Responsive tasarım */ /*Bu kısımda yapay zekadan yardım alındı*/
+ @media (max-width: 576px) {
+            header h1 {
+                font-size: 1.5rem;
+            }
+
+            .card-body {
+                padding: 2rem 1.5rem;
+            }
+
+            .loginh5 {
+                font-size: 1.3rem;
+            }
+
+            .login-container {
+                max-width: 100%;
+            }
+        }
+
+        @media (max-width: 400px) {
+            .card-body {
+                padding: 1.5rem 1rem;
+            }
+
+            header h1 {
+                font-size: 1.3rem;
+            }
+        }
