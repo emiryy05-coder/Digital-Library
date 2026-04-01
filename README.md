@@ -1,6 +1,7 @@
 ⚠️Sayfayı test etmek için Kullanıcı Adı="admin", Şifre="12345" olarak girip test edebilirsiniz⚠️
 ⚠️Sayfadaki Düzenle butonları ile navigasyon barındaki arama çubuğu henüz aktif değildir⚠️
 ⚠️Projeye henüz veritabanı bağlanmadığından "Giriş Yap" butonu aktif değildir⚠️
+--Henüz ilk proje olduğundan güvenlik ve actionlinkler basic olarak yapılmıştır--
 
 --Dijital Kütüphane Yönetim Sistemi
 Bu proje, kitap envanterini yönetmek, kategorilere göre filtrelemek ve ödünç işlemlerini takip etmek için geliştirilmiş, kullanıcı dostu bir Web Uygulamasıdır. İlk web geliştirme projem olarak, modern arayüz tasarımı ve dinamik veri yönetimi konularına odaklanmıştır.
